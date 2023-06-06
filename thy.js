@@ -1,7 +1,7 @@
 var myHeaders = new Headers();
 myHeaders.append("Authorization", "Bearer CHASECK-xxxxxxxxxxxxxxxx");
 myHeaders.append("Content-Type", "application/json");
-
+document.title="ArifPayment test"
 var raw = JSON.stringify({
   "amount": "100",
   "currency": "ETB",
